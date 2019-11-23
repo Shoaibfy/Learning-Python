@@ -9,7 +9,8 @@ def Fibonacci(n):
     elif n==2: 
         return 1
     else: 
-        return Fibonacci(n-1)+Fibonacci(n-2) 
+        result=Fibonacci(n-1)
+        return result
   
 # Driver Program 
   
